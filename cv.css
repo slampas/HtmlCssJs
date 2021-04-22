@@ -1,0 +1,31 @@
+
+#contenu
+{   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+/*
+.gauche
+{
+    float: left;
+    width: 40%;
+    border: 1px solid red;
+}
+
+.droite
+{
+    float: right;
+    margin-left:40px;
+    border: 1px solid red;
+}
+
+
+*/
