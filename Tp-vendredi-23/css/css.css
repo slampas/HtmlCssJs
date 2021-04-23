@@ -4,7 +4,9 @@ header h1 {
     color: red;
 }
 
-
+body {
+    background-color:aquamarine;
+}
 nav li {
     width: 30%;
     text-align: left;
