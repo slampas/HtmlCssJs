@@ -1,0 +1,51 @@
+header h1 {
+    text-align: center;
+    background-color: darkslategrey;
+    color: red;
+}
+
+
+nav li {
+    width: 30%;
+    text-align: left;
+    background-color:grey;
+}
+#article article {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    background-color: grey;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#photos article figure img{
+  width: 33%;
+
+}
+
+#photos article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+#photos article figure  {
+    display: flex;
+    flex-wrap: nowrap;
+
+  
+  }
+
+#form form div input {
+    width: 30%;
+    font-size: 1.3em;
+  }
+
