@@ -33,7 +33,9 @@ nav li {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+
 
 }
 
@@ -43,9 +45,32 @@ nav li {
 
   
   }
-
+#form {
+    background-color: black;
+}
+#form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    
+}
 #form form div input {
-    width: 30%;
-    font-size: 1.3em;
+    width: 79%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1em;
+  }
+  #form form div label {
+    text-align: left;
+    padding-left: 20px;
+    color: aliceblue;
   }
 
+  #form form div button {
+    background-color: #2980b9;
+    width: 30%;
+    height: 50px;
+    font-size: 1em;
+  }
