@@ -4,21 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/commander.css ">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1></h1>
+        <h1>Commandez votre Pizza en Ligne</h1>
         <nav>
             <ul>
-                <li><a href="#">La carte</a> </li>
-                <li><a href="#commander">Commander</a></li>
+                <li><a href="http://"><img src="../img/logo.png" alt=""></a></li>
+                <li><a href="http://127.0.0.1:5501/Tp-Pizza/index.html">La carte</a> </li>
+                <li><a href="http://127.0.0.1:5501/Tp-Pizza/pages/commander.html">Commander</a></li>
                 <li><a href="#search">Trouver un restaurant</a></li>
             </ul>
         </nav>
     </header>
 
 
+    <section id="form">
+
+        <article>
+        <form action="surplace">
+            <div>
+                <h4>Sur place</h4>
+            </div>
+			<div>
+				<label for="name">Nom</label>
+				<input type="text" id="name" name="name" placeholder="Nom">
+			</div>
+			<div>
+				<label for="prenom">Prénom</label>
+				<input type="text" id="prenom" name="prenom" placeholder="Prenom">
+			</div>
+			<div>
+				<label for="email">Email</label>
+				<input type="text" id="email" name="email" placeholder="Email">
+			</div>
+
+
+            <div>
+            <label for="pet-select">Choisir une Pizza : </label>
+
+            <select name="choix" id="choix">
+                <option value="">--Entrez un choix --</option>
+                <option value="nap">Pizza napolitaine</option>
+                <option value="fromage">Pizza au fromage</option>
+                <option value="maison">Pizza maison</option>
+                <option value="corcor">Pizza corcor</option>
+                <option value="lafter">Pizza lafter</option>
+                <option value="fish">Pizza fish</option>
+            </select>
+            </div>
+
+			<div>
+				<button type="submit">Valider</button>
+			</div>
+
+		</form>
+        </article>
     
+
+    
+        <article>
+        <form action="emporter">
+                <div>
+                    <h4>A emporter</h4>
+                </div>
+                <div>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Nom">
+                </div>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Prenom">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+    
+    
+                <div>
+                <label for="pet-select">Choisir une Pizza : </label>
+    
+                <select name="choix" id="choix">
+                    <option value="">--Entrez un choix --</option>
+                    <option value="nap">Pizza napolitaine</option>
+                    <option value="fromage">Pizza au fromage</option>
+                    <option value="maison">Pizza maison</option>
+                    <option value="corcor">Pizza corcor</option>
+                    <option value="lafter">Pizza lafter</option>
+                    <option value="fish">Pizza fish</option>
+                </select>
+                </div>
+    
+                <div>
+                    <button type="submit">Valider</button>
+                </div>
+    
+        </form>
+        </article>
+
+    </section>
+
+
 </body>
 </html>
