@@ -63,8 +63,9 @@ header nav ul li:hover {
     display: flex;
 }
 
-#lacarte article figure img{
-    width: 100%;
+#lacarte img{
+    height: 150px;
+    width: 150px;
    
 }
 #lacarte article figure figcaption {
@@ -73,7 +74,16 @@ header nav ul li:hover {
     font-size: large;
   }
 
+#lacarte article figure {
+    text-align: center;
+}
+  
+#lacarte article figure figcaption {
+    color: black;
+    text-align: center;
+}
+
 #lacarte article figure figcaption p {
-color: black;
-  }
+    max-height: 42px;
+}
 
