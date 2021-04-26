@@ -50,16 +50,26 @@
   }
 
   #form form div label {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
     padding-left: 20px;
     min-width: 150px;
+    font-size: 1rem;
+    padding-right: 10px;
   }
 
   #form form div select {
-    padding-bottom: 20px;
-    padding-left: 20px;
-    min-width: 150px;
+      padding-top: 20px;
+    font-size: 1.6rem;
+    padding: 2px 5px;
   }
+
+  #form form div label {
+    font-size: 1.6rem;
+    padding: 2px 5px;
+  }
+
+
   #choix{
     padding-bottom: 20px;
     padding-left: 20px;

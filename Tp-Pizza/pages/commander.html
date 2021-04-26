@@ -16,7 +16,7 @@
                 <li><a href="http://"><img src="../img/logo.png" alt=""></a></li>
                 <li><a href="http://127.0.0.1:5501/Tp-Pizza/index.html">La carte</a> </li>
                 <li><a href="http://127.0.0.1:5501/Tp-Pizza/pages/commander.html">Commander</a></li>
-                <li><a href="#search">Trouver un restaurant</a></li>
+                <li><a href="http://127.0.0.1:5501/Tp-Pizza/pages/search.html">Trouver un restaurant</a></li>
             </ul>
         </nav>
     </header>
@@ -86,18 +86,11 @@
     
     
                 <div>
-                <label for="pet-select">Choisir une Pizza : </label>
-    
-                <select name="choix" id="choix">
-                    <option value="">--Entrez un choix --</option>
-                    <option value="nap">Pizza napolitaine</option>
-                    <option value="fromage">Pizza au fromage</option>
-                    <option value="maison">Pizza maison</option>
-                    <option value="corcor">Pizza corcor</option>
-                    <option value="lafter">Pizza lafter</option>
-                    <option value="fish">Pizza fish</option>
-                </select>
-                </div>
+                    <label for="meeting-time">Choisir la date et heur de livarison:</label>
+
+                    <input type="datetime-local" id="meeting-time"
+                           name="meeting-time" value="2018-06-12T19:30"
+                           min="2018-06-07T00:00" max="2018-06-14T00:00">
     
                 <div>
                     <button type="submit">Valider</button>
