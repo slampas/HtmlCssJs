@@ -10,4 +10,4 @@ var impair= tab.filter ( (nbr) => {
 
 console.log(tab)
 console.log("Pair : "+ pair)
-console.log("impair : "+impair)
+console.log("impair : "+ impair)
