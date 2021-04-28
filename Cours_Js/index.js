@@ -1,13 +1,13 @@
-console.log("Hello world");
+var tab = [0,1,2,5,4,8,10,11,12,13]
 
-var a;
-var a = 2;
-a = true ;
-console.log(a) ;
+var pair= tab.filter ( (nbr) => {
+    return (nbr%2) == 0
+})
 
-function Hello(){
-    console.log("Hello world");
-}
+var impair= tab.filter ( (nbr) => {
+    return (nbr%2) != 0
+})
 
-Hello();
-
+console.log(tab)
+console.log("Pair : "+ pair)
+console.log("impair : "+impair)
